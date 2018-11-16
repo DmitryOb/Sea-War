@@ -1,0 +1,134 @@
+body, h2, h4 {
+	margin: 0;
+}
+#tableWrapper {
+	width: 85vw;
+	margin: 0 auto;
+	display: none;
+}
+#panelForShips {
+	width: 15vw;
+	height: 22vw;
+	float: left;
+	margin-right: 6vw;
+}
+#panelForShipsContainer {
+	width: 100%;
+	height: 100%;
+	border: 1px solid black;
+	padding: 0.5vw;
+	display: inline-table;
+}
+#panelForShipsInfoRow {
+	height: 40%;
+}
+#panelForShipsContent {
+	height: 60%;
+}
+#panelForShipsContent button {
+	font-size: 20px;
+	float: right;
+}
+div[currentship] {
+	display: inline-block;
+	position: absolute;
+	z-index: 1;
+}
+#battlefieldOne {
+	width: 25vw;
+	height: 25vw;
+	float: left;
+}
+#battlefieldTwo {
+	width: 25vw;
+	height: 25vw;
+}
+.deck1 {
+	background-color: green;
+}
+.deck2 {
+	background-color: orange;
+}
+.deck3 {
+	background-color: blue;
+}
+.deck4 {
+	background-color: purple;
+}
+#battlefieldTwo td[unlock-status="false"]:hover {
+	box-shadow: 0px 1px 10px 0px black, 0px 0px 20px 2px black;
+}
+#battlefieldTwo td:active {
+	box-shadow: none;
+}
+.invisible {
+	background-color: white!important;
+}
+.shoot {
+	background-color: white!important;
+	background: url(red.png) no-repeat center;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+}
+.miss {
+	background-color: white!important;
+	background: url(black.png) no-repeat center;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+}
+h5 {
+	margin: 0;
+}
+.vertical {
+	transform: rotate(90deg);
+}
+#descriptionFields {
+	text-align: center;
+	position: relative;
+	top: 12.5vw;
+	z-index: -1;
+}
+.battlefieldTopTitle {
+	text-align: center;
+	width:25vw;
+	position: relative;
+	left: 2.5vw;
+}
+.battlefieldLeftTitle {
+	height: 25vw;
+	width: 2.5vw;
+	float: left;
+	vertical-align: middle;
+	text-align: center;
+}
+.halfWrapper {
+	display: inline-block;
+	width: 30vw;
+	position: relative;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	user-select: none;
+}
+h3.description {
+	width: 100%;
+	margin: 0;
+	position: absolute;
+	bottom: -1.25em;
+	text-align: center;
+}
+#rotateButton {
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	user-select: none;
+}
+form {
+	padding: 6vw;
+}
+#shootInfo {
+	text-align: center;
+	font-size: 2vw;
+}
